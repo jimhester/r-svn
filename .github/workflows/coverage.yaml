@@ -1,0 +1,11 @@
+on:
+  workflow_dispatch:
+  push:
+    branches: [coverage-test]
+
+name: Coverage
+
+jobs:
+  coverage:
+    uses: jimhester/actions/.github/workflows/coverage-svn.yaml@coverage-svn-test
+    secrets: inherit
