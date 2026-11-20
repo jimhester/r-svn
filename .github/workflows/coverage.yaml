@@ -7,5 +7,5 @@ name: Coverage
 
 jobs:
   coverage:
-    uses: jimhester/actions/.github/workflows/coverage-svn.yaml@coverage-svn-test
+    uses: jimhester/actions-1/.github/workflows/coverage-svn.yaml@coverage-svn-test
     secrets: inherit
